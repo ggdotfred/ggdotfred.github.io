@@ -168,6 +168,16 @@ section.download {
     section.download h2 {
       font-size: 70px; } }
 
+section.content {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); }
+
 section.features .section-heading {
   margin-bottom: 100px; }
   section.features .section-heading h2 {
