@@ -10,227 +10,318 @@
 
   <title>ToastBeans - Investing made simple</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
   <!-- Plugin CSS -->
-  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">ToastBeans</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Connect</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <main class="container">
 
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-lg-7 my-auto">
-          <div class="header-content mx-auto">
-            <h1 class="mb-5">Clear and concise company financials for investors</h1>
+    <nav class="navbar navbar-expand-lg navbar-light nav_mr" style="background-color: transparent !important;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav_content">
+            <li class="nav-item">
+              <a class="nav-link " href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html#connect">Connect</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link invite_btn" style="color: #fff !important;" href="https://docs.google.com/forms/d/e/1FAIpQLScAX36N-52xADLoI43CZSYFzQKGzmqyyspT5li3jhcqmQRNrw/viewform?usp=sf_link">Get an Invite</a>
+            </li>
+          </ul>
 
-            <a id="demo" class="btn btn-outline btn-xl" on-click="myFunction()">Sign up now!</a>
-            <script>
-            function myFunction() {
-              document.getElementById("demo").innerHTML = "Add Me";
-            }
-            </script>
-          </div>
-        </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/comingsoon.png" class="img-fluid" alt="">
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
+    </nav>
+
+  <header>
+      <div class="row">
+         <div class="col-md-6 head_d1">
+           <div class="make_p_head">
+            <h1>
+              Investing made simple
+            </h1>
+            <p>
+              Clear and concise company financials for everyone
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScAX36N-52xADLoI43CZSYFzQKGzmqyyspT5li3jhcqmQRNrw/viewform?usp=sf_link" class="btn_primary">Get an early invitation</a>
+           </div>
+         </div>
+         <div class="col-md-6 head_d2">
+             <img src="img/mbl.png" />
+        </div>
+      </div>
   </header>
 
-  <section class="download bg-primary text-center" id="download">
-    <div class="container">
+  <section class="hiw desk_view">
+      <h2>The ToastBeans Story</h2>
       <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">Become a Great Investor</h2>
-          <p> We all want to make more money. That starts with being confident in your investments. We want you to feel more confident in where you put your
-          hard-earned money. Long gone are the days where financial information is limited; where self-proclaimed money experts charge exorbitant fees and users pay hefty fees for
-          trading robots.</p>
-          <br>
-          <div class="badges">
-            <a href="blog.html" class="btn btn-outline btn-xl js-scroll-trigger">Visit our blog!</a>
-            <!-- <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a> -->
+        <div class="col-md-6 hiw_d1">
+           <div class="make_p_hiw">
+            <h3>
+              Step 1
+             </h3>
+             <p>
+              You want to invest in stocks but don't really know where to begin.
+             </p>
+           </div>
+        </div>
+        <div class="col-md-6 hiw_d2">
+           <img src="img/work1.png" />
+        </div>
+        <div class="col-md-6 hiw_d2">
+          <img src="img/work2.png" />
+        </div>
+        <div class="col-md-6 hiw_d1">
+          <div class="make_p_hiw">
+          <h3>
+            Step 2
+            </h3>
+            <p>
+              You know a few companies you potentially want to invest in. However, the abundance of complex financial statements and investment noise makes
+              you anxious about where to put your money.
+            </p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+        <div class="col-md-6 hiw_d1">
+          <div class="make_p_hiw">
+           <h3>
+             Step 3
+            </h3>
+            <p>
+              You come across ToastBeans, and realize the app paints a clear picture of company financials and the aggregation of data that is simple, easy to understand.
 
-  <section class="download bg-primary text-center" id="download">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">No Time Wasted</h2>
-          <p>Have you ever wanted to do research on a company only to find yourself 5 pages deep in a PDF? Have you ever wanted to find out how much money a company makes only
-          to have a bunch of random numbers thrown at you? Ain't Nobody Got Time for That! We make sure the information you need is right in front of you and is clear, simple, and easy to digest.</p>
+            </p>
+          </div>
+       </div>
+       <div class="col-md-6 hiw_d2">
+          <img src="img/work3.png" />
+       </div>
+       <div class="col-md-6 hiw_d2">
+        <img src="img/work4.png" />
+      </div>
+      <div class="col-md-6 hiw_d1">
+        <div class="make_p_hiw">
+        <h3>
+          Step 4
+          </h3>
+          <p>
+            Over time, you become more confident in investing and are able to make better investment decisions over time.
+          </p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="features" id="features">
-    <div class="container">
-      <div class="section-heading text-center">
-        <h2>New to investing? No problem.</h2>
-        <p class="text-muted">We simplify company financials so you can make better investment decisions.</p>
-        <hr>
       </div>
-      <div class="row">
-        <div class="col-lg-4 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/comingsoon.png" class="img-fluid" alt="">
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
+  </section>
+  <section class="hiw mbl_view">
+    <h2>The ToastBeans Story</h2>
+    <div class="row">
+      <div class="col-md-6 hiw_d1">
+         <div class="make_p_hiw">
+          <h3>
+            Step 1
+           </h3>
+           <p>
+              You want to invest in stocks but don't really know where to begin.
+           </p>
+         </div>
+      </div>
+      <div class="col-md-6 hiw_d2">
+         <img src="img/work1.png" />
+      </div>
+
+      <div class="col-md-6 hiw_d1">
+        <div class="make_p_hiw">
+        <h3>
+          Step 2
+          </h3>
+          <p>
+            You know a few companies you potentially want to invest in. However, the abundance of complex financial statements and investment noise makes
+            you anxious about where to put your money.
+
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 hiw_d2">
+        <img src="img/work2.png" />
+      </div>
+      <div class="col-md-6 hiw_d1">
+        <div class="make_p_hiw">
+         <h3>
+           Step 3
+          </h3>
+          <p>
+              You come across ToastBeans, and realize the app paints a clear picture of company financials and the aggregation of data that is simple, easy to understand.
+
+          </p>
+        </div>
+     </div>
+     <div class="col-md-6 hiw_d2">
+        <img src="img/work3.png" />
+     </div>
+
+    <div class="col-md-6 hiw_d1">
+      <div class="make_p_hiw">
+      <h3>
+        Step 4
+        </h3>
+        <p>
+          Over time, you become more confident in investing and are able to make better investment decisions over time.
+
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6 hiw_d2">
+      <img src="img/work4.png" />
+    </div>
+    </div>
+</section>
+
+<section class="benefits">
+    <h2>Benefits</h2>
+    <div class="row">
+
+       <div class="col-md-4 bene_d1">
+           <div>
+             <h3>1</h3>
+             <img src="img/1.PNG" />
+             <h4>Time Efficiency</h4>
+             <p>
+               Reduce your workload and time required
+               to understand stocks.
+            </p>
+           </div>
+       </div>
+          <div class="col-md-4 bene_d1">
+            <div>
+              <h3>2</h3>
+              <img src="img/2.PNG" />
+              <h4>Reduce Anxiety</h4>
+              <p>
+               More confidence in where you place
+               your hard-earned money.
+              </p>
+            </div>
+        </div>
+          <div class="col-md-4 bene_d1">
+            <div>
+              <h3>3</h3>
+              <img src="img/3.PNG" />
+              <h4>Tune Out Noise</h4>
+              <p>
+              No longer listen to self-proclaimed investment gurus
+              or others on the web.
+              </p>
+            </div>
+        </div>
+        <div class="col-md-12">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScAX36N-52xADLoI43CZSYFzQKGzmqyyspT5li3jhcqmQRNrw/viewform?usp=sf_link" class="btn_sec">Get an early invitation</a>
+        </div>
+
+    </div>
+</section>
+</main>
+<section class="testimonals">
+     <h6>Testimonials</h6>
+     <h2>Words from satisfied users</h2>
+     <div class="row testi_row">
+        <div class="col-md-4 ">
+           <div class="testi_col">
+             <img src="img/testimonal.png" />
+             <p>
+              When I first started buying stocks, I was buying and selling too quickly because I was afraid to lose money.
+              With ToastBeans, I find myself holding longer positions and making more money!
+
+             </p>
+             <div class="testi-user">
+               <span>
+                 <img src="img/p1.png" />
+               </span>
+               <span>
+                 <p>Andy Pan<br>
+                  23, Software Engineer</p>
+               </span>
+             </div>
+           </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="testi_col">
+            <img src="img/testimonal.png" />
+            <p>
+              I am new to investing, and I am glad I found ToastBeans!
+              The app breaks things down very clearly for beginners and I am able to better understand the financials of each company!
+            </p>
+            <div class="testi-user">
+              <span>
+                <img src="img/p2.png" />
+              </span>
+              <span>
+                <p>Kevin Norah<br>
+                  34, Retail Manager</p>
+              </span>
             </div>
           </div>
-        </div>
-        <div class="col-lg-8 my-auto">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-refresh text-primary"></i>
-                  <h3>Up-To-Date Info</h3>
-                  <p class="text-muted">Our data is constantly updated to bring you the latest information.</p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-chart text-primary"></i>
-                  <h3>Intuitive UI</h3>
-                  <p class="text-muted">Never read boring 10-Ks again!</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-list text-primary"></i>
-                  <h3>Personalized watchlist</h3>
-                  <p class="text-muted">Build your own stock watchlist!</p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-book-open text-primary"></i>
-                  <h3>Comprehensive</h3>
-                  <p class="text-muted">Over 500+ companies and counting!</p>
-                </div>
-              </div>
-            </div>
+       </div>
+       <div class="col-md-4 ">
+        <div class="testi_col">
+          <img src="img/testimonal.png" />
+          <p>
+           I get pretty busy at work, but this app is a game changer for me.
+           It only takes less than 5 minutes to decide if I want to buy or sell a stock, and then I am back to business!
+          </p>
+          <div class="testi-user">
+            <span>
+              <img src="img/p3.png" />
+            </span>
+            <span>
+              <p>Sora Green<br>
+                28, Customer Success</p>
+            </span>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+     </div>
+     </div>
+</section>
 
-  <section class="cta">
-    <div class="cta-content">
-      <div class="container">
-        <h2>Invest your money with <b>CONFIDENCE</b></h2>
-        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Sign up Now!</a>
-      </div>
-    </div>
-    <div class="overlay"></div>
-  </section>
+<section class="waiting">
 
-  <section class="contact bg-primary" id="contact">
-    <div class="container">
-      <h2>Let's connect!</h2>
-      <ul class="list-inline list-social">
-        <li class="list-inline-item social-facebook">
-          <a href="https://www.facebook.com/toastbeans">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="list-inline-item social-google-plus">
-          <a href="https://www.instagram.com/toastbeansapp">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </section>
+ <div class="wait_d1">
+  <p>What are you waiting for?</p>
+  <h1>Invest your money with <span style="color: #966BE8;">CONFIDENCE</span></h1>
+  <h6>Click the link below to get an early invitation to our official app launch NOW.</h6>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScAX36N-52xADLoI43CZSYFzQKGzmqyyspT5li3jhcqmQRNrw/viewform?usp=sf_link">Get an early invitation</a>
+ </div>
 
-  <footer>
-    <div class="container">
-      <p>&copy; ToastBeans 2020. All Rights Reserved.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="privacy.html">Privacy</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="terms.html">Terms</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="faq.html">FAQ</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="disclaimer.html">Disclaimer</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+</section>
+
+<footer id="connect">
+<div class="footer_d">
+  <h1>Lets Connect!</h1>
+  <div class="social">
+  <a href="facebook.com/toastbeansapp">  <img src="img/facebook.png" /></a>
+  <a href="twitter.com/toastbeansapp">  <img src="img/Twitter.png" /></a>
+  <a href="instagram.com/toastbeansapp">  <img src="img/white.png" /></a>
+  </div>
+  <div class="footer_pages">
+    <span><a href="privacy.html">Privacy</a></span>
+    <span><a href="terms.html">Terms</a></span>
+    <span><a href="faq.html">FAQ</a></span>
+    <span><a href="disclaimer.html">Dislcaimer</a></span>
+  </div>
+
+  <p>© ToastBeans 2021. All Rights Reserved.</p>
+</div>
+</footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
