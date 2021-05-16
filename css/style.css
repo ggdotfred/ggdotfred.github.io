@@ -53,23 +53,22 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 .head_d1 h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
-  line-height: 80px;
+  line-height: 50px;
   letter-spacing: -1.7647058963775635px;
   text-align: left;
   margin-bottom: 20px;
 }
 
 .head_d1 p {
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 50px;
-  letter-spacing: -1.76471px;
+  font-size: 20px;
+  line-height: 30px;
   text-align: left;
   padding-bottom: 40px;
-  text-transform: capitalize;
+  font-style: normal;
+  font-weight: normal;
   color: #000 !important;
 }
 
@@ -516,7 +515,7 @@ footer {
     font-size: 18px;
   }
   .head_d1 p {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 40px;
   }
 }
