@@ -31,10 +31,10 @@ a:hover {
   color: #000 !important;
 }
 .invite_btn {
-  background: #966be8;
+  background: #F5F5DC;
   border: 1px solid #f2f2f2;
   border-radius: 25px;
-  color: #fff !important;
+  color: #000 !important;
   padding: 8px 16px !important;
 }
 @media (min-width: 992px) {
@@ -73,7 +73,7 @@ a:hover {
 }
 
 .btn_primary {
-  background: #966be8;
+  background: #F5F5DC;
   border: 1px solid #f2f2f2;
   border-radius: 25px;
   font-style: normal;
@@ -84,7 +84,7 @@ a:hover {
   text-decoration: none;
   text-align: center;
   padding: 25px 40px;
-  color: #ffffff;
+  color: #A9A9A9;
   position: absolute;
 }
 @media (max-width: 950px) {
