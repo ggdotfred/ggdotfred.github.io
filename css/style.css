@@ -232,7 +232,7 @@ a:hover {
 }
 
 .testimonals {
-  background: #966be8;
+  background: #F5F5DC;
   margin: 40px 0px 0px;
   padding: 8% 0px 4% 12%;
   overflow: hidden;
@@ -244,7 +244,7 @@ a:hover {
   line-height: 27px;
   /* identical to box height, or 150% */
 
-  color: #ffffff;
+  color: #000;
 }
 .testimonals h2 {
   font-style: normal;
@@ -253,7 +253,7 @@ a:hover {
   line-height: 51px;
   /* identical to box height, or 150% */
 
-  color: #ffffff;
+  color: #000;
   margin-bottom: 4rem;
 }
 .testi_col {
