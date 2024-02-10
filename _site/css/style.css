@@ -28,10 +28,10 @@ p{
 }
 .invite_btn
 {
-    background: #966BE8;
+    background: #F5F5DC;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
-    color: #fff !important;
+    color: #000 !important;
     padding: 8px 16px !important;
 }
 @media (min-width: 992px)
@@ -80,7 +80,7 @@ p{
 
 .btn_primary
 {
-    background: #966BE8;
+    background: #F5F5DC;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
     font-style: normal;
@@ -91,7 +91,7 @@ p{
      text-decoration: none;
     text-align: center;
      padding: 25px 40px;
-    color: #FFFFFF;
+    color: #000;
     position:absolute;
 
 }
@@ -262,7 +262,7 @@ color: #D2ABE5;
 
 .testimonals
 {
-    background: #966BE8;
+    background: #F5F5DC;
     margin: 40px 0px 0px;
     padding: 8% 0px 4% 12%;
     overflow: hidden;
@@ -275,7 +275,7 @@ color: #D2ABE5;
     /* identical to box height, or 150% */
     
     
-    color: #FFFFFF;
+    color: #000;
     
 }
 .testimonals h2{
@@ -286,7 +286,7 @@ line-height: 51px;
 /* identical to box height, or 150% */
 
 
-color: #FFFFFF;
+color: #000;
 }
 .testi_col
 {
