@@ -78,6 +78,25 @@ p{
     
 }
 
+.pricing-box {
+    border: 2px solid #000;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+}
+
+.pricing-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-box p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
 .btn_primary
 {
     background: #F5F5DC;
@@ -362,6 +381,14 @@ color: #000000;
 .waiting
 {
     background: #000000;
+    position: relative;
+    padding: 5% 5% 8%;
+    text-align: center;
+}
+
+.waiting_class
+{
+    background: #fff;
     position: relative;
     padding: 5% 5% 8%;
 
