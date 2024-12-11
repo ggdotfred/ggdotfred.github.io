@@ -399,10 +399,10 @@ color: #000000;
     margin: auto;
     background-color: #222222 !important;
 }
-.wait_d1  p{
+.wait_d1 p {
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 30px;
     line-height: 27px;
     /* identical to box height, or 150% */
     
@@ -410,7 +410,7 @@ color: #000000;
     
     color: #FFFFFF;
 }
-.wait_d1  h1{
+.wait_d1 h1 {
     font-style: normal;
 font-weight: bold;
 font-size: 60px;
@@ -421,6 +421,19 @@ text-align: center;
 
 color: #FFFFFF;
 }
+
+.wait_d1 h3 {
+    font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 80px;
+/* or 133% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
 .wait_d1  h6{
     font-style: normal;
 font-weight: normal;
@@ -435,24 +448,7 @@ text-align: center;
 color: #6D7783;
     
 }
-.wait_d1  a{
-    background: #FFFFFF;
-border: 1px solid #F2F2F2;
-border-radius: 25px;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-margin: auto;
-text-align: center;
-padding: 15px 40px;
-color: #000000;
-text-decoration: none;
-display: table;
-position: relative;
-top: 75px;
-}
+
 footer{
     padding: 40px 20px 10px;
 }

@@ -140,6 +140,24 @@ a:hover {
 
   color: #fff;
 }
+
+.hiw_d1 ul {
+  list-style-type: none; /* Removes the default list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.hiw_d1 li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  color: #A0A0A0;
+}
+
+.hiw_d1 li strong {
+  font-weight: bold; /* Makes the strong text bold */
+}
 .hiw_d2 {
   display: grid;
   place-items: center;
@@ -241,7 +259,7 @@ a:hover {
 }
 
 .testimonals {
-  background: #F5F5DC;
+  background: #222222;
   margin: 40px 0px 0px;
   padding: 8% 0px 4% 12%;
   overflow: hidden;
@@ -262,7 +280,7 @@ a:hover {
   line-height: 51px;
   /* identical to box height, or 150% */
 
-  color: #000;
+  color: #fff;
   margin-bottom: 4rem;
 }
 .testi_col {
@@ -281,7 +299,7 @@ a:hover {
 
   text-align: center;
 
-  color: #6d7783;
+  color: #fff;
   margin: 20px 0px 0px;
 }
 .testi-user {
@@ -325,15 +343,21 @@ a:hover {
   border-radius: 10px;
   background-color: #fff;
 }
+
 .testi_row:hover::-webkit-scrollbar:vertical {
   display: none;
 }
+
 .waiting {
   background: #000000;
   position: relative;
   padding: 5% 5% 8%;
+  text-align: center;
 }
-
+.wait_d1 a {
+    display: inline-block; /* Ensures the padding is applied properly */
+    padding-top: 60px; /* Adjust the value as needed */
+}
 .wait_d1 {
   width: 80%;
   margin: auto;
@@ -341,7 +365,7 @@ a:hover {
 .wait_d1 p {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 27px;
   /* identical to box height, or 150% */
 
@@ -373,24 +397,7 @@ a:hover {
 
   color: #6d7783;
 }
-.wait_d1 a {
-  background: #ffffff;
-  border: 1px solid #f2f2f2;
-  border-radius: 25px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  margin: auto;
-  text-align: center;
-  padding: 15px 40px;
-  color: #000000;
-  text-decoration: none;
-  display: table;
-  position: relative;
-  top: 75px;
-}
+
 footer {
   padding: 40px 20px 10px;
 }
