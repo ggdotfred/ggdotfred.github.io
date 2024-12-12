@@ -537,7 +537,11 @@ footer {
 @media (max-width: 600px) {
   .head_d1 h1 {
     font-size: 35px;
-    line-height: 50px;
+    line-height: 40px;
+  }
+  .head_d1 p {
+    font-size: 18px;
+    line-height: 25px;
   }
   .btn_primary {
     top: 90%;
@@ -570,7 +574,7 @@ footer {
   }
   .hiw_d1 p {
     font-size: 15px;
-    line-height: 24px;
+    line-height: 20px;
   }
   .nav_mr {
     margin: 10px 0px;
